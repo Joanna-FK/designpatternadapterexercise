@@ -8,4 +8,8 @@ public class CoffeMachineInheritedAdapter extends CoffeMachine implements Kitche
     public void turnDeviceOn() {
         super.on();
     }
-}
+
+    public void turnDeviceOff() {super.off();}
+
+    }
+

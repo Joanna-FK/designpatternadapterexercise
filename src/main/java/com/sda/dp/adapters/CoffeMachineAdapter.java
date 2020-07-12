@@ -13,4 +13,8 @@ public class CoffeMachineAdapter implements KitchenDevice {
     public void turnDeviceOn() {
         coffeMachine.on();
     }
+
+    public void turnDeviceOff() { coffeMachine.off();
+    }
+
 }
